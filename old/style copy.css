@@ -1,0 +1,735 @@
+<!DOCTYPE CSS PUBLIC >
+
+/* CSS stylesheet */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+
+.clear {   /* for fixing floats on any page */
+clear:both;
+}
+
+html, body {
+height:100%;
+background-color:#fff;
+font-family: 'Oswald', sans-serif;
+
+}
+
+#wrapper {
+position:relative;
+}
+
+/* Homepage */
+
+#total-slider {
+top:0px;
+
+}
+body#wrapperhome {
+background-size:cover;
+background-position: center;
+background-repeat:no-repeat;
+background-color: black;
+background-image:url(florida_copy.jpg);
+font-family: 'Oswald', sans-serif;
+
+}
+
+#navbartop {
+position: relative;
+width:300px;
+left: 0px;
+margin:0 auto;
+padding-top: 10px;
+}
+
+
+#navbartop h1 {
+color: black;
+text-align: center;
+font-size: 60px;
+font-family: 'oswald';
+font-weight: normal;
+margin-bottom:0px;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: white;
+
+
+}
+
+#navbar-home {
+height: auto;
+margin: 0 auto;
+margin-top: 0px;
+padding-top: 15px;
+text-align: center; 
+background-color:white;
+vertical-align: middle;
+}
+
+#navbar-home ul {
+list-style-type:none;
+margin:0px;
+font-size: 20px;
+font-family: 'oswald';
+font-weight: none;
+overflow: hidden;
+display: inline-block;
+padding-bottom: 10px;
+}
+
+#navbar-home li {
+float:left;
+padding-left: 13px;
+padding-right: 13px;
+text-align: center;
+}
+
+#navbar-home a {
+text-decoration:none;
+text-align: center;
+}
+
+/* Navbar page indicator */
+
+#navbar span {
+text-decoration: underline;
+
+}
+
+.name {
+font-family: 'courier new';
+font-weight: lighter;
+color: black;
+font-size: 100%;
+text-align: justify;
+line-height: 100%;
+left: 0px;
+position: absolute;
+top: 35px;
+padding-right: 10px;
+margin-bottom: 0;
+display:inline;
+text-transform:uppercase;
+letter-spacing: 8px;
+
+}
+
+.name2 {
+font-family: 'courier new';
+font-weight: lighter;
+color: black;
+font-size: 100%;
+text-align: justify;
+line-height: 100%;
+left: 200px;
+position: absolute;
+top: 35px;
+padding-right: 10px;
+margin-bottom: 0;
+display:inline;
+text-transform:uppercase;
+letter-spacing: 8px;
+}
+#homepage_nav {
+
+background-color: white;
+
+
+}
+
+
+.header {
+color: black;
+}
+
+/* Header and Navigation */
+
+#header { 
+position:relative;
+height:60px;
+text-align:center;
+width:960px; /* all content locked in at 960px centered except for the image */
+margin: 0 auto;
+}
+
+#header a {
+color:#000;
+text-decoration:none;
+}
+
+.initials { 
+position:absolute;
+left:30px;
+height:100px; 
+line-height:75px;
+font-weight: 300;
+top:13px;
+}
+
+.initials a { 
+position:absolute;
+left:30px;
+height:100px; 
+line-height:75px;
+font-weight: 300;
+top:13px;
+}
+
+.initials h1 { 
+color:#000;
+font-size:43px;
+font-weight: normal;
+}
+
+#navbar {  
+position:absolute;
+left:90px;
+}
+
+#navbar ul { 
+list-style:none;
+height:100px; 
+line-height:100px;
+}
+
+#navbar li {
+display:inline-block;
+padding: 0 12px;
+font-size: 20px;
+
+}
+
+#sm-logos { /* sets the position for this div within the header div */
+position:absolute;
+left:821px;
+top:39px; 
+}
+
+#sm-logos ul {
+list-style:none;
+}
+
+#sm-logos li {
+display: inline-block;
+padding:0 3px;
+}
+
+/* IMAGE */
+
+#about-image {
+position:relative;
+text-align:center;
+padding-top: 30px;
+}
+
+#about-image img {
+width:100%;
+}
+
+#sub-title {
+position: absolute;
+text-align:center;
+width:100%;
+top:39%;
+}
+
+#sub-title h3 {
+font-family: "bebas-neue";
+font-size: 120px;
+color: white;
+}
+
+
+/* TEXT CONTENT */
+
+#sub-content {
+font-family: 'courier new', monospace;
+font-weight: lighter;
+font-size: 16px;
+padding-left:30px;
+padding-top:20px;
+padding-bottom:30px;
+width:960px; /* all content locked in at 960px centered except for the image */
+margin: 0 auto;
+line-height: 1.2;
+}
+
+#bio {
+width:550px;
+float:left;
+}
+
+#bio a {
+color:black;
+}
+
+#bio p { 
+padding:10px 0;
+}
+
+#contact {
+width:300px;
+float:left;
+padding-left:45px;
+}
+
+#contact a {
+text-align: center;
+text-decoration: none;
+color:black;
+}
+
+#contact p {
+padding:5px 0;
+text-align: center;
+}
+
+#contact span {
+text-decoration: underline;
+}
+
+#sm-logos2 { /* sets the position for this div within the header div */
+text-align: center;
+padding-top: 8px;
+}
+
+#sm-logos2 ul {
+list-style:none;
+}
+
+#sm-logos2 li {
+display: inline-block;
+padding:0 2px;
+}
+
+/* Write page */ 
+
+#page-content {
+width:960px;
+margin: 0 auto;
+}
+
+#header_title {
+font-family: 'bebas neue';
+font-size: 75px;
+text-decoration: underline;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 20px;
+width:960px;
+margin:0 auto;
+
+}
+
+#writing-content {
+	max-width:960px; 
+	margin:0 auto;
+	line-height: 1.2;
+
+}
+
+#writing-content h2 {
+font-family: helvetica;
+font-style: bold;
+font-size: 35px;
+text-align: center;
+padding-bottom: 8px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#writing-content h3 {
+font-family: courier new;
+font-size: 18px;
+font-weight: 300;
+padding-bottom: 30px;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#writing-content a {
+text-decoration: none;	
+color: black;
+}
+
+#contianer6 {
+width: 100%;	
+	
+}
+
+.fittext4  {
+text-transform: uppercase;
+text-align: center;
+text-decoration: underline;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+
+#fittext5  {
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+.fittext6  {
+font-family: helvetica;
+font-style: bold;
+padding-bottom: 8px;
+padding-top: 8px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.fittext7 {	
+font-family: courier new;
+font-weight: 300;	
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.fittext8  {
+text-transform: uppercase;
+text-align: center;
+color:white;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+
+/* VENTUREs PAGE */
+
+.container3 {
+	padding-top: 30px;
+}
+#seersucker-content {
+width: 960px;
+position:relative;
+}
+
+#seersucker-image img {
+width: 100%;
+}
+
+#seersucker-content-text {
+display: inline-block
+text-align:center;
+font-family: helvetica;
+font-style: bold;
+padding-top:10px;
+padding-bottom:50px;
+width: 100%;
+text-align: center;
+font-size: 30px/1.8;
+
+
+} 
+
+#seersucker-content-text a {
+text-decoration: none;
+color:black;
+}
+
+#defend_sn-content {
+
+
+}
+#defend_sn-content img {
+position: absolute;
+width: 100%;
+}
+
+
+/* DESIGN PAGE */
+
+#medium-nav {
+height: auto;
+margin: 0 auto;
+margin-top: 50px;
+padding-top: 0px;
+text-align: center; 
+background-color:white;
+vertical-align: middle;	
+}
+
+#medium-nav ul {
+list-style-type:none;
+margin:0px;
+font-size: 15;
+font-family: 'courier';
+font-weight: lighter;
+overflow: hidden;
+display: inline-block;
+color:black;
+}
+
+#medium-nav li {
+float:left;
+padding-left: 13px;
+padding-right: 13px;
+text-align: center;
+
+}
+
+#medium-nav a {
+text-decoration:none;
+text-align: center;
+color:black;
+
+}
+
+#design-section-divs1 h2 {
+font-family: helvetica;
+font-style: bold;
+font-size: 35px;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 8px;
+}
+
+
+#design-section-divs3 h2 {
+font-family: helvetica;
+font-style: bold;
+font-size: 35px;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 8px;
+}
+
+#design-section-divs2 h2 {
+font-family: helvetica;
+font-style: bold;
+font-size: 35px;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 8px;
+}
+/* DESIGN CONTENT */
+
+#print-total {
+width: 960px;
+margin:0 auto;
+padding-top: 30px;
+}
+
+#rabbit-hole {
+padding-bottom: 5px;
+}
+
+
+.images-just {
+text-align:justify;
+list-style:none;
+width:100%;
+vertical-align:text-top;
+
+}
+
+.images-just li {
+display:inline-block;
+vertical-align:text-top;
+padding-bottom: 5px;
+
+}
+
+.images-just:after {
+content:"";
+display:inline-block;
+width:100%;
+}
+
+.style1 {
+width:100%;
+padding-bottom:20px;
+background-color:
+}
+
+
+/* NEWS PAGE */
+
+#fittext2  {
+text-transform: uppercase;
+text-align: center;
+text-decoration: underline;
+}
+
+#container body { 
+line-height: 1; 
+}
+
+#container ol, ul { 
+list-style: none; 
+}
+
+#container blockquote, q { 
+quotes: none; 
+}
+
+#container blockquote:before, blockquote:after,
+q:before, q:after { 
+content: ''; 
+content: none; 
+}
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+
+#container ins { 
+text-decoration: none; 
+}
+
+#container del { 
+text-decoration: line-through; 
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+#container table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+}
+
+/*- -*/
+/*- GENERIC BODY STYLES -*/
+#container html, body {
+  height: 100%;
+  margin: 0 0 1px;
+  padding: 0;
+}
+
+#container body {
+font-family: 'courier';
+color: black;
+}
+
+#container p { 
+margin-bottom: 18px; 
+}
+
+a { 
+text-decoration: underline; 
+}
+
+a:hover { 
+text-decoration: none; 
+}
+
+#container { 
+width: 960px; 
+margin: 0 auto; 
+
+}
+
+/*- -*/
+/*- FILTER OPTIONS -*/
+
+#filterOptions {
+text-align: center;
+
+}
+
+ul#filterOptions {
+width: 960px;
+height: 50px;
+padding-bottom: 20px;
+overflow: hidden;
+vertical-align: middle;
+font-family: 'courier';
+font-style: lighter;
+font-size: 15px;
+}
+
+ul#filterOptions li { 
+height: 50px; 
+margin-right: 2px; 
+display: inline-block; 
+}
+
+ul#filterOptions li a {
+height: 50px;
+padding: 0 5px;
+color: black;
+line-height: 50px;
+text-decoration: none;
+display: block;
+}
+
+ul#filterOptions li a:hover { 
+}
+
+ul#filterOptions li.active a { 
+text-decoration: underline; 
+}
+
+/*- -*/
+/*- OUR DATA HOLDER -*/
+ul.ourHolder {
+width: 960x;
+height: 850px;
+overflow: hidden;
+
+}
+
+ul.ourHolder li.item {
+width: 200px;
+height: 200px;
+float: left;
+text-align: center;
+overflow: hidden;
+padding-left:20px;
+padding-right:20px;
+
+}
+
+ul.ourHolder li.item h3 { 
+margin-top: 10px; 
+font-family: 'courier';
+font-weight: lighter;
+font-size: 14px; 
+line-height: 20px; 
+}
+/* BLOG*/
+
+#blog {
+	text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+/* CSS stylesheet */
+
+* {  /* remove all default padding and spacing */
+padding:0;
+margin:0;
+border:0;
+}
+
+.clear {   /* for fixing floats on any page */
+clear:both;
+}
+
+html, body {
+height:100%;
+background-color:#fff;
+font-family: 'Oswald', sans-serif;
+
+}
+
+#wrapper {
+position:relative;
+}
+
+/* Header and Navigation */
+
+#header { /* Makes this the spot that the enclosed divs are positioning themselves  */
+position:relative;
+height:100px;
+text-align:center;
+width:960px; /* all content locked in at 960px centered except for the image */
+margin: 0 auto;
+}
+
+#header a {
+color:#000;
+text-decoration:none;
+}
+
+#initials { /* sets the position for this div within the header div */
+position:absolute;
+left:30px;
+height:100px; 
+line-height:100px;
+}
+
+#initials h1 { /* formatting specific to this text - the font family has already been set globally above */
+color:#000;
+font-size:40px;
+}
+
+#navbar {  /* sets the position for this div within the header div */
+position:absolute;
+left:110px;
+}
+
+#navbar ul { /* setting height and line-height to the same number centers the content vertically within the height specified */
+list-style:none;
+height:100px; 
+line-height:100px;
+}
+
+#navbar li {
+display:inline-block;
+padding: 0 7px;
+font-size: 20px;
+
+}
+
+#sm-logos { /* sets the position for this div within the header div */
+position:absolute;
+left:800px;
+top:35px; /* I didn't use height/line-height here because the images are handled differently than the text */
+}
+
+#sm-logos ul {
+list-style:none;
+}
+
+#sm-logos li {
+display: inline-block;
+padding:0 5px;
+}
+
+/* IMAGE */
+
+#about-image {
+position:relative;
+text-align:center;
+}
+
+#about-image img {
+width:100%;
+}
+
+#sub-title {
+position: absolute;
+text-align:center;
+width:100%;
+top:50%;
+}
+
+#sub-title h3 {
+font-family: 'bebas neue', impact; /* make sure you link to the webkit font info, since bebas neue isn't a websafe font */
+font-weight: lighter;
+font-size: 100px;
+color: white;
+}
+
+
+/* TEXT CONTENT */
+
+#sub-content {
+font-family: 'courier new', monospace;
+font-weight: lighter;
+font-size: 16px;
+padding-left:30px;
+padding-top:20px;
+width:960px; /* all content locked in at 960px centered except for the image */
+margin: 0 auto;
+}
+
+#bio {
+width:550px;
+float:left;
+}
+
+#bio p { /* I separated the paragraph padding for each div tag in this section so you could control them independently */
+padding:10px 0;
+}
+
+#contact {
+width:300px;
+float:left;
+padding-left:45px;
+}
+
+#contact p {
+padding:5px 0;
+}

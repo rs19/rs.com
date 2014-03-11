@@ -1,0 +1,86 @@
+html, body {
+	height: 100%;
+
+font-family: 'Oswald', sans-serif;
+background color:white;
+}
+
+
+body {
+		margin: 0px;
+		padding: 0px;
+			}
+		#navbar {
+			height: auto;
+			margin: 0 auto 0 auto;
+			margin-top: 0px;
+			padding-top: 1px;
+			text-align: center; 
+			background-color:white;
+			vertical-align: middle;
+			}
+		h5 {
+			font-family: courier new;
+			font-weight: lighter;
+			color: black;
+			font-size: 100%;
+			text-align: justify;
+			line-height: 120%;
+			left: 490px;
+			position: absolute;
+			top: 18px;
+			padding-right: 10px;
+			margin-bottom: 0;
+	
+		}
+
+		h6 {
+			font-family: courier new;
+			font-weight: lighter;
+			color: black;
+			position:;
+			float: right;
+			}
+		
+
+		
+		#about_image {
+	  		font-family: "bebas-neue";
+	  		font-style: bold;
+		  	color: white;
+		  	padding: 0px;
+		  	margin: 0px;
+		  	background-color:red;
+
+
+
+		
+
+
+		ul
+			{
+			list-style-type:none;
+			margin:0px;
+			font-size: 20px;
+			font-family: 'oswald';
+			font-weight: none;
+			overflow: hidden;
+			display: inline-block;
+			}
+		li
+			{
+			float:left;
+			text-align: center;
+			}
+		a
+			{
+			display:block;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-decoration:none;
+			text-align: center;
+			float: center;
+		}
+
+
+
